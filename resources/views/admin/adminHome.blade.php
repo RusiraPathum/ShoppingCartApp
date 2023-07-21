@@ -11,7 +11,7 @@
         <div class="p-3">
             <h1 class="text-center">{{ __('Products Details') }}</h1>
 
-            <div class="mt-3 mb-3">
+            <div class="mt-3 mb-5" style="text-align:right;">
                 <a href="{{ route('products.create') }}" class="btn btn-primary">
                     {{ __('Add New Product') }}
                 </a>

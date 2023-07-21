@@ -55,27 +55,12 @@
                                 </div>
                             </div>
 
-                            {{-- <div class="form-group row mb-3">
-                                <label for="quantity"
-                                    class="col-md-4 col-form-label text-md-right">{{ __('Quantity') }}</label>
-                                <div class="col-md-6">
-                                    <input id="quantity" type="number"
-                                        class="form-control @error('quantity') is-invalid @enderror" name="quantity"
-                                        value="{{ old('quantity', $product->quantity) }}" required>
-                                    @error('quantity')
-                                        <span class="invalid-feedback" role="alert">
-                                            <strong>{{ $message }}</strong>
-                                        </span>
-                                    @enderror
-                                </div>
-                            </div> --}}
-
                             <div class="form-group row mb-0">
                                 <div class="col-md-6 offset-md-4">
-                                    <button type="submit" class="btn btn-primary">
+                                    <button type="submit" class="btn btn-primary btn-rd">
                                         {{ __('Update Product') }}
                                     </button>
-                                    <a href="{{ route('admin.home') }}" class="btn btn-secondary">
+                                    <a href="{{ route('admin.home') }}" class="btn btn-secondary btn-rd">
                                         {{ __('Cancel') }}
                                     </a>
                                 </div>
