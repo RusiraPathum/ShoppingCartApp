@@ -24,7 +24,8 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('user.userHome');
+        $products = Product::all();
+        return view('user.userHome', compact('products'));
     }
 
     public function adminHome()
